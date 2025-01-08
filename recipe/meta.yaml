@@ -18,13 +18,13 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
     - easyprocess
     - entrypoint2
     - python-mss
     - jeepney
-
     # not listed upstream but needed
     - pillow
 
